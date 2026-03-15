@@ -60,3 +60,47 @@
 
 </body>
 </html>
+body{
+font-family: Arial;
+text-align:center;
+margin:0;
+}
+
+header{
+background:#2c7be5;
+color:white;
+padding:20px;
+}
+
+.icons{
+display:flex;
+justify-content:center;
+gap:20px;
+margin:20px;
+}
+
+.icon{
+background:#eee;
+padding:10px;
+border-radius:50%;
+width:80px;
+height:80px;
+}
+
+.cards{
+display:flex;
+justify-content:center;
+gap:20px;
+}
+
+.card{
+border:1px solid #ccc;
+padding:10px;
+width:150px;
+}
+
+footer{
+margin-top:30px;
+padding:10px;
+background:#eee;
+}
